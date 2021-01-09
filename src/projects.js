@@ -260,6 +260,8 @@ const projects = [
         name: "Catalysing Corporate Action Through Plastic Standards",
         xCategory: "Climate + Environmental",
         yCategory: "Policy: Standards",
+        description: "Over 30 per cent of plastic used worldwide escapes waste management systems, with a serious negative impact on the environment, while 95 per cent of plastic packaging material value is lost after its first use. In recent years, a greater un- derstanding of the impact of plastic waste has led to many initiatives, alliances and projects, as well as an unprecedent- ed number of commitments from companies seeking to de- velop circular, zero-waste plastic value chains. Despite this momentum, practical strategies for achieving zero waste or ‘100% circular plastics’ are scarce. The Catalysing Corporate Action Through Plastic Standards (CCAPS) project contrib- utes to the development of standards and guidelines for corporates and for plastic intervention projects. It is also de- veloping a concept for a Plastic Action Fund to provide pre-fi- nancing for plastic recovery and recycling infrastructure in developing countries.",
+        link: "communitydesk@climate-kic.org"
       },
       {
         x: 85,
