@@ -3,8 +3,8 @@ import "./App.css";
 import projects from "./projects";
 import yaxis from "./images/y-axis.svg";
 import xaxis from "./images/x-axis.svg";
-import ckiclogo from './images/logo_CKIC_EU.png';
-import dmlogo from './images/DML_Logo_black.png'
+import ckiclogo from "./images/logo_CKIC_EU.png";
+import dmlogo from "./images/DML_Logo_black.png";
 
 const CustomNode = ({
   x,
@@ -67,8 +67,8 @@ const GGCPortfolioScatterPlot = ({ data }) => (
     margin={{ top: 20, right: 280, bottom: 120, left: 5 }}
     xScale={{ type: "linear", min: 0, max: "auto" }}
     yScale={{ type: "linear", min: 0, max: "auto" }}
-    width= "1400"
-    height= "750"
+    width="1400"
+    height="750"
     axisTop={null}
     useMesh={false}
     renderNode={CustomNode}
@@ -110,7 +110,7 @@ const GGCPortfolioScatterPlot = ({ data }) => (
           textAlign: "start",
           marginRight: "30%",
           marginLeft: "30%",
-          marginBottom: "-20%"
+          marginBottom: "-20%",
         }}
       >
         <strong>{node.data.name}</strong>
@@ -126,30 +126,50 @@ function App() {
     <div className="App">
       <h1>GGC Project Portfolio</h1>
       <div className="link">
-      <a href="https://www.climate-kic.org/">← Back to blog</a>
+        <a href="https://www.climate-kic.org/">← Back to blog</a>
       </div>
       <div className="wrapper">
         <div className="xaxis">
           <img src={yaxis} alt="y axis"></img>
         </div>
         <div className="graph">
-          <GGCPortfolioScatterPlot data={projects} /> 
+          <GGCPortfolioScatterPlot data={projects} />
         </div>
       </div>
       <div className="yaxis">
         <img src={xaxis} alt="x axis"></img>
       </div>
       <p className="link-text">
-        For more data visualisations visit👉<a href="https://climate-kic.cognitive.city/">Exaptive</a>
+        For more data visualisations visit👉
+        <a href="https://climate-kic.cognitive.city/">Exaptive</a>
       </p>
       <div className="footer">
         <p>Supported by-</p>
         <div className="container">
-          <a href="https://www.climate-kic.org/" target="_blank" rel="noreferrer"><img className="logos" src={ckiclogo} alt="Climate-KIC EIT logo"></img></a>
-          <a href="https://darkmatterlabs.org/" target="_blank" rel="noreferrer"><img className="logos" src={dmlogo} alt="Dark Matter Labs logo"></img></a>
+          <a
+            href="https://www.climate-kic.org/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              className="logos"
+              src={ckiclogo}
+              alt="Climate-KIC EIT logo"
+            ></img>
+          </a>
+          <a
+            href="https://darkmatterlabs.org/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              className="logos"
+              src={dmlogo}
+              alt="Dark Matter Labs logo"
+            ></img>
+          </a>
         </div>
       </div>
-      
     </div>
   );
 }
