@@ -11,8 +11,7 @@ h1 {
 
 html,
 body,
-#root,
-.App {
+#root {
   height: 100%;
 }
 

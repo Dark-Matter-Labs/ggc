@@ -1,6 +1,10 @@
-import { ResponsiveScatterPlot } from "@nivo/scatterplot";
+import { ScatterPlot } from "@nivo/scatterplot";
 import "./App.css";
 import projects from "./projects";
+import yaxis from "./images/y-axis.svg";
+import xaxis from "./images/x-axis.svg";
+import ckiclogo from './images/logo_CKIC_EU.png';
+import dmlogo from './images/DML_Logo_black.png'
 
 const CustomNode = ({
   x,
@@ -16,8 +20,8 @@ const CustomNode = ({
     <g transform={`translate(${x},${y})`}>
       <image
         xlinkHref={node.data.icon}
-        width={65}
-        height={65}
+        width={72}
+        height={72}
         onMouseEnter={onMouseEnter}
         onMouseMove={onMouseMove}
         onMouseLeave={onMouseLeave}
@@ -57,12 +61,14 @@ const theme = {
   },
 };
 
-const MyResponsiveScatterPlot = ({ data }) => (
-  <ResponsiveScatterPlot
+const GGCPortfolioScatterPlot = ({ data }) => (
+  <ScatterPlot
     data={data}
-    margin={{ top: 20, right: 300, bottom: 120, left: 120 }}
+    margin={{ top: 20, right: 280, bottom: 120, left: 5 }}
     xScale={{ type: "linear", min: 0, max: "auto" }}
     yScale={{ type: "linear", min: 0, max: "auto" }}
+    width= "1400"
+    height= "750"
     axisTop={null}
     useMesh={false}
     renderNode={CustomNode}
@@ -101,15 +107,15 @@ const MyResponsiveScatterPlot = ({ data }) => (
           fontFamily: "SpaceMono-Regular, serif",
           background: "#333",
           padding: "12px 16px",
+          textAlign: "start",
+          marginRight: "30%",
+          marginLeft: "30%",
+          marginBottom: "-20%"
         }}
       >
         <strong>{node.data.name}</strong>
         <br />
-        {node.data.serieId}
-        <br />
-        {`Main category: ${node.data.xCategory}`}
-        <br />
-        {`Typology of impact: ${node.data.yCategory}`}
+        {node.data.description}
       </div>
     )}
   />
@@ -118,8 +124,32 @@ const MyResponsiveScatterPlot = ({ data }) => (
 function App() {
   return (
     <div className="App">
-      <h1>GGC Projects</h1>
-      <MyResponsiveScatterPlot data={projects} />
+      <h1>GGC Project Portfolio</h1>
+      <div className="link">
+      <a href="https://www.climate-kic.org/">← Back to blog</a>
+      </div>
+      <div className="wrapper">
+        <div className="xaxis">
+          <img src={yaxis} alt="y axis"></img>
+        </div>
+        <div className="graph">
+          <GGCPortfolioScatterPlot data={projects} /> 
+        </div>
+      </div>
+      <div className="yaxis">
+        <img src={xaxis} alt="x axis"></img>
+      </div>
+      <p className="link-text">
+        For more data visualisations visit👉<a href="https://climate-kic.cognitive.city/">Exaptive</a>
+      </p>
+      <div className="footer">
+        <p>Supported by-</p>
+        <div className="container">
+          <a href="https://www.climate-kic.org/" target="_blank" rel="noreferrer"><img className="logos" src={ckiclogo} alt="Climate-KIC EIT logo"></img></a>
+          <a href="https://darkmatterlabs.org/" target="_blank" rel="noreferrer"><img className="logos" src={dmlogo} alt="Dark Matter Labs logo"></img></a>
+        </div>
+      </div>
+      
     </div>
   );
 }

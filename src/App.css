@@ -1,5 +1,48 @@
 .App {
-  height: 800px;
   text-align: center;
   font-family: SpaceMono-Regular, serif;
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: row;
+}
+
+.xaxis {
+  flex-basis: 5%;
+  padding-left: 30px;
+}
+
+.yaxis {
+  padding-right: 40px;
+}
+
+.graph {
+  flex-basis: 95%;
+}
+
+.link {
+  text-align: start;
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 20px;
+}
+
+.footer {
+  padding-bottom: 80px;
+  padding-top: 40px;
+}
+
+.logos {
+  height: 90px;
+  width: auto;
+  padding-right: 40px;
+}
+
+.link-text {
+  padding-top: 40px;
 }

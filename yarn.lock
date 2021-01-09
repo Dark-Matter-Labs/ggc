@@ -1771,6 +1771,14 @@
     schema-utils "^2.6.5"
     source-map "^0.7.3"
 
+"@react-css/grid@^1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@react-css/grid/-/grid-1.4.1.tgz#dae096b604af12cc01feebbc006304fd8c3ebd53"
+  integrity sha512-ODrGmLZX4bsIQKS0GzDh7iPz6zU/AP0AmqITCCU0Lz4BNu8q3ik4XCxN0F6fNQpEcHX7mIOC/OFzon47v0W7Nw==
+  dependencies:
+    react "^17.0.1"
+    react-dom "^17.0.1"
+
 "@react-spring/animated@9.0.0-rc.3":
   version "9.0.0-rc.3"
   resolved "https://registry.yarnpkg.com/@react-spring/animated/-/animated-9.0.0-rc.3.tgz#e792cb76aacecfc78db2be6020ac11ce96503eb5"
