@@ -2,22 +2,28 @@ body {
   font-family: SpaceMono-Regular, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #d3d3d3;
 }
 
 h1 {
   font-family: SpaceMono-Bold, serif;
 }
 
-html, body, #root, .App {
+html,
+body,
+#root,
+.App {
   height: 100%;
 }
 
 @font-face {
-  font-family: 'SpaceMono-Bold';
-  src: local('SpaceMono-Bold'), url(./fonts/SpaceMono-Bold.ttf) format('truetype');
+  font-family: "SpaceMono-Bold";
+  src: local("SpaceMono-Bold"),
+    url(./fonts/SpaceMono-Bold.ttf) format("truetype");
 }
 
 @font-face {
-  font-family: 'SpaceMono-Regular';
-  src: local('SpaceMono-Regular'), url(./fonts/SpaceMono-Regular.ttf) format('truetype');
+  font-family: "SpaceMono-Regular";
+  src: local("SpaceMono-Regular"),
+    url(./fonts/SpaceMono-Regular.ttf) format("truetype");
 }
