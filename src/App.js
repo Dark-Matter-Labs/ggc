@@ -1,4 +1,4 @@
-import { ScatterPlot } from "@nivo/scatterplot";
+import { ResponsiveScatterPlot } from "@nivo/scatterplot";
 import "./App.css";
 import projects from "./projects";
 import yaxis from "./images/y-axis.svg";
@@ -10,7 +10,6 @@ const CustomNode = ({
   x,
   y,
   node,
-  color,
   onMouseEnter,
   onMouseMove,
   onMouseLeave,
@@ -62,7 +61,7 @@ const theme = {
 };
 
 const GGCPortfolioScatterPlot = ({ data }) => (
-  <ScatterPlot
+  <ResponsiveScatterPlot
     data={data}
     margin={{ top: 20, right: 280, bottom: 120, left: 5 }}
     xScale={{ type: "linear", min: 0, max: "auto" }}
@@ -105,12 +104,11 @@ const GGCPortfolioScatterPlot = ({ data }) => (
         style={{
           color: node.style.color,
           fontFamily: "SpaceMono-Regular, serif",
-          background: "#333",
+          background: "#333333E6",
           padding: "12px 16px",
           textAlign: "start",
-          marginRight: "30%",
-          marginLeft: "30%",
-          marginBottom: "-20%",
+          width: "640px",
+          marginBottom: "-30%",
         }}
       >
         <strong>{node.data.name}</strong>
