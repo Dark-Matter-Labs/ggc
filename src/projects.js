@@ -66,6 +66,7 @@ const projects = [
         y: 70,
         icon: pelican,
         name: "PELICAN",
+        iconName: "PELICAN",
         xCategory: "Climate + Environmental + Economic",
         yCategory: "Policy: Policy Framework",
         description:
@@ -77,6 +78,7 @@ const projects = [
         y: 79.5,
         icon: carbonfarm,
         name: "Carbon Farming",
+        iconName: "Carbon Farming",
         xCategory: "Climate + Environmental + Economic",
         yCategory: "Micro Demonstration",
         description:
@@ -88,6 +90,7 @@ const projects = [
         y: 79,
         icon: eCir,
         name: "eCircular flagship consortium",
+        iconName: "eCircular",
         xCategory: "Climate + Environmental + Economic",
         yCategory: "Micro Demonstration",
         description:
@@ -100,10 +103,11 @@ const projects = [
     id: "Institutional Tools for Sustainable Development",
     data: [
       {
-        x: 54,
+        x: 53,
         y: 44.5,
         icon: cleantech,
         name: "CleanTech London",
+        iconName: "CleanTech London",
         xCategory: "Climate + Environmental",
         yCategory: "Market intervention: Supply and Demand platform",
         description:
@@ -115,6 +119,7 @@ const projects = [
         y: 55,
         icon: resettle,
         name: "RESETTLE",
+        iconName: "RESETTLE",
         xCategory: "Climate + Environmental + Economic + Social",
         yCategory: "Market intervention: Finance instruments",
         description:
@@ -126,6 +131,7 @@ const projects = [
         y: 53,
         icon: puffin,
         name: "PUFFIN",
+        iconName: "PUFFIN",
         xCategory: "Climate + Environmental + Economic",
         yCategory: "Market intervention: Finance instruments",
         description:
@@ -137,6 +143,7 @@ const projects = [
         y: 60,
         icon: forland,
         name: "FORLAND",
+        iconName: "FORLAND",
         xCategory: "Climate + Environmental + Economic",
         yCategory: "Policy: Voluntary Codes of conduct",
         description:
@@ -148,6 +155,7 @@ const projects = [
         y: 40,
         icon: sapience,
         name: "SAPIENCE",
+        iconName: "SAPIENCE",
         xCategory: "Climate + Environmental + Economic",
         yCategory: "Market intervention: Data Infrastructure",
         description:
@@ -159,6 +167,7 @@ const projects = [
         y: 39,
         icon: geofootprint,
         name: "GeoFootprint",
+        iconName: "GeoFootprint",
         xCategory: "Climate + Environmental",
         yCategory: "Market intervention: Data Infrastructure",
         description:
@@ -170,6 +179,7 @@ const projects = [
         y: 45,
         icon: foodsystems,
         name: "Food System Targets",
+        iconName: "Food System",
         xCategory: "Climate + Environmental + Economic",
         yCategory: "Market intervention: Data Infrastructure",
         description:
@@ -181,6 +191,7 @@ const projects = [
         y: 52,
         icon: arise,
         name: "ARISE",
+        iconName: "ARISE",
         xCategory: "Climate + Environmental + Economic",
         yCategory: "Market intervention: Finance instruments",
         description:
@@ -189,9 +200,10 @@ const projects = [
       },
       {
         x: 66,
-        y: 52,
+        y: 53,
         icon: smartawood,
         name: "Smartawood",
+        iconName: "Smartawood",
         xCategory: "Climate + Environmental",
         yCategory: "Market intervention: Risk Systems and Markets",
         description:
@@ -203,6 +215,7 @@ const projects = [
         y: 45,
         icon: innow,
         name: "InnoWEEE",
+        iconName: "InnoWEEE",
         xCategory: "Climate + Environmental",
         yCategory: "Market intervention: Supply and Demand platform",
         description:
@@ -214,6 +227,7 @@ const projects = [
         y: 46.5,
         icon: ff,
         name: "Friendly Fruit",
+        iconName: "Friendly Fruit",
         xCategory: "Climate + Environmental",
         yCategory: "Market intervention: Supply and Demand platform",
         description:
@@ -222,9 +236,10 @@ const projects = [
       },
       {
         x: 61.5,
-        y: 38,
+        y: 37,
         icon: thirtyfivef,
         name: "3S Framework",
+        iconName: "3S Framework",
         xCategory: "Climate + Environmental",
         yCategory: "Market intervention: Data Infrastructure",
         description:
@@ -236,6 +251,7 @@ const projects = [
         y: 58.5,
         icon: reco,
         name: "RE.CO",
+        iconName: "RE.CO",
         xCategory: "Climate + Environmental + Economic + Social",
         yCategory: "Market intervention: Finance instruments",
         description:
@@ -247,6 +263,7 @@ const projects = [
         y: 41,
         icon: ice,
         name: "Icebreaker One",
+        iconName: "Icebreaker One",
         xCategory: "Climate + Environmental + Economic",
         yCategory: "Market intervention: Data Infrastructure",
         description:
@@ -258,16 +275,19 @@ const projects = [
         y: 62.5,
         icon: cat,
         name: "Catalysing Corporate Action Through Plastic Standards",
+        iconName: "CCATPS",
         xCategory: "Climate + Environmental",
         yCategory: "Policy: Standards",
-        description: "Over 30 per cent of plastic used worldwide escapes waste management systems, with a serious negative impact on the environment, while 95 per cent of plastic packaging material value is lost after its first use. In recent years, a greater un- derstanding of the impact of plastic waste has led to many initiatives, alliances and projects, as well as an unprecedent- ed number of commitments from companies seeking to de- velop circular, zero-waste plastic value chains. Despite this momentum, practical strategies for achieving zero waste or ‘100% circular plastics’ are scarce. The Catalysing Corporate Action Through Plastic Standards (CCAPS) project contrib- utes to the development of standards and guidelines for corporates and for plastic intervention projects. It is also de- veloping a concept for a Plastic Action Fund to provide pre-fi- nancing for plastic recovery and recycling infrastructure in developing countries.",
-        link: "communitydesk@climate-kic.org"
+        description:
+          "Over 30 per cent of plastic used worldwide escapes waste management systems, with a serious negative impact on the environment, while 95 per cent of plastic packaging material value is lost after its first use. In recent years, a greater un- derstanding of the impact of plastic waste has led to many initiatives, alliances and projects, as well as an unprecedent- ed number of commitments from companies seeking to de- velop circular, zero-waste plastic value chains. Despite this momentum, practical strategies for achieving zero waste or ‘100% circular plastics’ are scarce. The Catalysing Corporate Action Through Plastic Standards (CCAPS) project contrib- utes to the development of standards and guidelines for corporates and for plastic intervention projects. It is also de- veloping a concept for a Plastic Action Fund to provide pre-fi- nancing for plastic recovery and recycling infrastructure in developing countries.",
+        link: "communitydesk@climate-kic.org",
       },
       {
         x: 85,
         y: 55,
         icon: eli,
         name: "Elicit Sustainability Investment Preferences",
+        iconName: "ESIP",
         xCategory: "Climate + Environmental + Economic",
         yCategory: "Market interventions: Finance instruments",
         description:
@@ -279,6 +299,7 @@ const projects = [
         y: 49.5,
         icon: holi,
         name: "Holistic resilience of territories to extreme events",
+        iconName: "HRTES",
         xCategory: "Climate + Environmental + Economic + Social",
         yCategory: "Market intervention: Risk system and markets",
         description:
@@ -295,6 +316,7 @@ const projects = [
         y: 100,
         icon: urbanclimate,
         name: "Urban Climate Action Starter Kit",
+        iconName: "Urban Climate Action",
         xCategory: "Pure Climate",
         yCategory: "Civic awareness program",
         description:
@@ -306,6 +328,7 @@ const projects = [
         y: 71.5,
         icon: celsius,
         name: "CELSIUS 2.0",
+        iconName: "CELSIUS 2.0",
         xCategory: "Pure Climate",
         yCategory: "Policy: Policy Framework",
         description:
@@ -317,6 +340,7 @@ const projects = [
         y: 84,
         icon: drive,
         name: "DRIVE 2",
+        iconName: "DRIVE 2",
         xCategory: "Pure Climate",
         yCategory: "Micro Demonstration",
         description:
@@ -328,6 +352,7 @@ const projects = [
         y: 79.5,
         icon: q1,
         name: "Decarbonisation Community for Logistics",
+        iconName: "Decarbonisation Community",
         xCategory: "Pure Climate",
         yCategory: "Micro Demonstration",
         description:
@@ -344,6 +369,7 @@ const projects = [
         y: 77.5,
         icon: blueblogs,
         name: "Bluebloqs",
+        iconName: "Bluebloqs",
         xCategory: "Climate + Environmental",
         yCategory: "Micro Demonstration",
         description:
@@ -355,6 +381,7 @@ const projects = [
         y: 86,
         icon: q2,
         name: "Accelerator Cities Programme",
+        iconName: "ACP",
         xCategory: "Climate + Environmental + Economic + Social",
         yCategory: "Macro Demonstration",
         description:
@@ -366,6 +393,7 @@ const projects = [
         y: 85.5,
         icon: scaleL,
         name: "Scaling Landscape Rewilding",
+        iconName: "SLR",
         xCategory: "Climate + Environmental + Economic",
         yCategory: "Macro Demonstration",
         description:
@@ -377,6 +405,7 @@ const projects = [
         y: 74.5,
         icon: cfm,
         name: "CFM TRACTION",
+        iconName: "CFM TRACTION",
         xCategory: "Climate + Environmental",
         yCategory: "Policy: Policy Framework",
         description:
@@ -390,9 +419,10 @@ const projects = [
     data: [
       {
         x: 126.5,
-        y: 72,
+        y: 71,
         icon: geco,
         name: "GECO",
+        iconName: "GECO",
         xCategory: "Climate + Environmental + Economic + Social",
         yCategory: "Micro Demonstration",
         description:
@@ -401,9 +431,10 @@ const projects = [
       },
       {
         x: 137.5,
-        y: 84,
+        y: 82,
         icon: landscape,
         name: "LANDSCAPE METROPOLIS",
+        iconName: "LANDSCAPE",
         xCategory: "Climate + Environmental + Economic + Social",
         yCategory: "Micro Demonstration",
         description:
@@ -412,9 +443,10 @@ const projects = [
       },
       {
         x: 130.5,
-        y: 85.5,
+        y: 89,
         icon: greenlight,
         name: "Green Light District",
+        iconName: "Green Light District",
         xCategory: "Climate + Environmental + Economic + Social",
         yCategory: "Micro Demonstration",
         description:
@@ -426,6 +458,7 @@ const projects = [
         y: 74,
         icon: sushi,
         name: "Sustainable Historic Districts",
+        iconName: "SHD",
         xCategory: "Climate + Environmental + Economic + Social",
         yCategory: "Macro Demonstration",
         description:
@@ -433,10 +466,11 @@ const projects = [
         link: "www.sustainablehistoriccitydistricts.wordpress.com",
       },
       {
-        x: 144.5,
+        x: 145,
         y: 80,
         icon: madames,
         name: "MADAMES-AX",
+        iconName: "MADAMES-AX",
         xCategory: "Climate + Environmental + Economic + Social",
         yCategory: "Micro Demonstration",
         description:
@@ -448,6 +482,7 @@ const projects = [
         y: 72.5,
         icon: lebel,
         name: "Label Bas Carbone",
+        iconName: "Label Bas Carbone",
         xCategory: "Climate + Environmental + Economic + Social",
         yCategory: "Micro Demonstration",
         description:
@@ -459,6 +494,7 @@ const projects = [
         y: 79,
         icon: merezzate,
         name: "Merezzate+",
+        iconName: "Merezzate+",
         xCategory: "Climate + Environmental + Economic + Social",
         yCategory: "Micro Demonstration",
         description:
@@ -475,6 +511,7 @@ const projects = [
         y: 48,
         icon: uccri,
         name: "UCCRI",
+        iconName: "UCCRI",
         xCategory: "Pure Climate",
         yCategory: "Market intervention: Risk Systems and Markets",
         description:
@@ -486,6 +523,7 @@ const projects = [
         y: 56.5,
         icon: cityfinance,
         name: "City Finance Lab",
+        iconName: "City Finance Lab",
         xCategory: "Pure Climate",
         yCategory: "Market intervention: Finance instruments",
         description:
@@ -497,6 +535,7 @@ const projects = [
         y: 57,
         icon: recam,
         name: "RECAM",
+        iconName: "RECAM",
         xCategory: "Pure Climate",
         yCategory: "Market intervention: Finance instruments",
         description:
@@ -508,6 +547,7 @@ const projects = [
         y: 38.5,
         icon: rise,
         name: "NCI",
+        iconName: "NCI",
         xCategory: "Pure Climate",
         yCategory: "Market intervention: Data Infrastructure",
         description:
@@ -519,6 +559,7 @@ const projects = [
         y: 48,
         icon: crisi,
         name: "CRISI-ADAPT II",
+        iconName: "CRISI-ADAPT II",
         xCategory: "Pure Climate",
         yCategory: "Market intervention: Risk Systems and Markets",
         description:
@@ -530,6 +571,7 @@ const projects = [
         y: 29,
         icon: c2land,
         name: "C2Land",
+        iconName: "C2Land",
         xCategory: "Pure Climate",
         yCategory: "Product Accelerator",
         description:
@@ -538,9 +580,10 @@ const projects = [
       },
       {
         x: 25,
-        y: 49.5,
+        y: 49.2,
         icon: safeplaces,
         name: "SAFERPLACES",
+        iconName: "SAFERPLACES",
         xCategory: "Pure Climate",
         yCategory: "Market intervention: Risk Systems and Platforms",
         description:
@@ -552,6 +595,7 @@ const projects = [
         y: 62.5,
         icon: co2,
         name: "CO2nsistent",
+        iconName: "CO2nsistent",
         xCategory: "Pure Climate",
         yCategory: "Policy: Voluntary Codes of conduct",
         description:
@@ -560,9 +604,10 @@ const projects = [
       },
       {
         x: 25,
-        y: 42.5,
+        y: 41.5,
         icon: aeneta,
         name: "AENETA",
+        iconName: "AENETA",
         xCategory: "Pure Climate",
         yCategory: "Market intervention: Data Infrastructure",
         description:
@@ -574,6 +619,7 @@ const projects = [
         y: 33.5,
         icon: lions,
         name: "LIONS2LIFE",
+        iconName: "LIONS2LIFE",
         xCategory: "Pure Climate",
         yCategory: "Product Accelerator",
         description:
@@ -585,6 +631,7 @@ const projects = [
         y: 29,
         icon: sa,
         name: "SA Regional Nordic Hub",
+        iconName: "SA-RNH",
         xCategory: "Climate + Environmental",
         yCategory: "Product Accelerator",
         description:
@@ -601,6 +648,7 @@ const projects = [
         y: 14.5,
         icon: opensurface,
         name: "OpenSurface",
+        iconName: "OpenSurface",
         xCategory: "Climate + Environmental",
         yCategory: "Physical product",
         description:
@@ -612,6 +660,7 @@ const projects = [
         y: 11.5,
         icon: phosphorus,
         name: "Phosphorus recovery and reuse",
+        iconName: "Phosphorus recovery",
         xCategory: "Climate + Environmental + Economic",
         yCategory: "Physical product",
         description:
@@ -623,6 +672,7 @@ const projects = [
         y: 23,
         icon: feedx,
         name: "FEED X",
+        iconName: "FEED X",
         xCategory: "Climate + Environmental + Economic",
         yCategory: "Product Accelerator",
         description:
@@ -634,6 +684,7 @@ const projects = [
         y: 11.5,
         icon: bPlas,
         name: "B-PLAS DEMO",
+        iconName: "B-PLAS DEMO",
         xCategory: "Climate + Environmental",
         yCategory: "Product",
         description:
@@ -645,6 +696,7 @@ const projects = [
         y: 29.5,
         icon: circularK,
         name: "The Circular Kitchen",
+        iconName: "The Circular Kitchen",
         xCategory: "Climate + Environmental",
         yCategory: "Market intervention: Finance instruments",
         description:
@@ -656,6 +708,7 @@ const projects = [
         y: 7,
         icon: drygo,
         name: "DryGro",
+        iconName: "DryGro",
         xCategory: "Climate + Environmental",
         yCategory: "Physical product",
         description:
@@ -667,6 +720,7 @@ const projects = [
         y: 22,
         icon: circularH,
         name: "Circular Housing",
+        iconName: "Circular Housing",
         xCategory: "Climate + Environmental",
         yCategory: "Service",
         description:
@@ -678,6 +732,7 @@ const projects = [
         y: 11.5,
         icon: bsg,
         name: "BSG",
+        iconName: "BSG",
         xCategory: "Pure Climate",
         yCategory: "Product",
         description:
@@ -685,10 +740,11 @@ const projects = [
         link: "communitydesk@climate-kic.org",
       },
       {
-        x: 102,
+        x: 103.5,
         y: 27,
         icon: zero,
         name: "Zero Carbon Delivery",
+        iconName: "Zero Carbon Delivery",
         xCategory: "Climate + Environmental + Economic",
         yCategory: "Product Accelerator",
         description:
@@ -700,6 +756,7 @@ const projects = [
         y: 29.5,
         icon: localM,
         name: "Local, magnetocaloric power conversion opportunities for Cities",
+        iconName: "LMPOC",
         xCategory: "Climate + Environmental + Economic",
         yCategory: "Product Accelerator",
         description:
@@ -707,11 +764,12 @@ const projects = [
         link: "communitydesk@climate-kic.org",
       },
       {
-        x: 71,
-        y: 29,
+        x: 72,
+        y: 28,
         icon: plas,
         name:
           "Single-use plastic free systemic local applications along the Mediterranean east coast",
+        iconName: "Single-use plastic",
         xCategory: "Climate + Environmental",
         yCategory: "Product Accelerator",
         description:
@@ -720,9 +778,10 @@ const projects = [
       },
       {
         x: 53.5,
-        y: 23,
+        y: 22,
         icon: ire,
         name: "National platform for circular manufacturing(Ireland)",
+        iconName: "NPCM",
         xCategory: "Climate + Environmental",
         yCategory: "Product Accelerator",
         description:
