@@ -9,17 +9,24 @@
   flex-flow: row;
 }
 
-.xaxis {
-  flex-basis: 5%;
-  padding-left: 30px;
+.yaxis {
+  flex-basis: 20%;
 }
 
-.yaxis {
-  padding-right: 40px;
+.yaxis > img {
+  width: 180px;
+}
+
+.xaxis {
+  padding-left: 140px;
+}
+
+.xaxis > img {
+  width: 1300px;
 }
 
 .graph {
-  flex-basis: 95%;
+  flex-basis: 80%;
 }
 
 .link {
@@ -44,5 +51,10 @@ p {
 }
 
 .link-text {
-  padding-top: 40px;
+  padding-top: 60px;
+}
+
+.icon-label {
+  font-size: 0.6em;
+  text-align: center;
 }
