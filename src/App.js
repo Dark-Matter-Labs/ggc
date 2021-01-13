@@ -36,16 +36,11 @@ const CustomNode = ({
 const overlayStyle = {
   overlay: {
     position: "absolute",
-    top: 400,
+    top: 675,
     right: 0,
     bottom: 0,
     left: 1240,
-    display: "flex",
-    flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "center",
     color: "#000",
-    textAlign: "center",
     // This is important to preserve the chart interactivity
     pointerEvents: "none",
   },
