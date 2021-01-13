@@ -275,7 +275,7 @@ const projects = [
         y: 62.5,
         icon: cat,
         name: "Catalysing Corporate Action Through Plastic Standards",
-        iconName: "CCATPS",
+        iconName: "Catalysing Corporate Action",
         xCategory: "Climate + Environmental",
         yCategory: "Policy: Standards",
         description:
@@ -283,11 +283,11 @@ const projects = [
         link: "communitydesk@climate-kic.org",
       },
       {
-        x: 85,
+        x: 83,
         y: 55,
         icon: eli,
         name: "Elicit Sustainability Investment Preferences",
-        iconName: "ESIP",
+        iconName: "Elicit Sustainability",
         xCategory: "Climate + Environmental + Economic",
         yCategory: "Market interventions: Finance instruments",
         description:
@@ -299,7 +299,7 @@ const projects = [
         y: 49.5,
         icon: holi,
         name: "Holistic resilience of territories to extreme events",
-        iconName: "HRTES",
+        iconName: "Holistic Resilience",
         xCategory: "Climate + Environmental + Economic + Social",
         yCategory: "Market intervention: Risk system and markets",
         description:
@@ -381,7 +381,7 @@ const projects = [
         y: 86,
         icon: q2,
         name: "Accelerator Cities Programme",
-        iconName: "ACP",
+        iconName: "Accelerator Cities",
         xCategory: "Climate + Environmental + Economic + Social",
         yCategory: "Macro Demonstration",
         description:
@@ -389,11 +389,11 @@ const projects = [
         link: "communitydesk@climate-kic.org",
       },
       {
-        x: 59,
-        y: 85.5,
+        x: 63,
+        y: 83.5,
         icon: scaleL,
         name: "Scaling Landscape Rewilding",
-        iconName: "SLR",
+        iconName: "Scaling Landscape Rewilding",
         xCategory: "Climate + Environmental + Economic",
         yCategory: "Macro Demonstration",
         description:
@@ -455,10 +455,10 @@ const projects = [
       },
       {
         x: 135,
-        y: 74,
+        y: 69,
         icon: sushi,
         name: "Sustainable Historic Districts",
-        iconName: "SHD",
+        iconName: "Sustainable Historic Districts",
         xCategory: "Climate + Environmental + Economic + Social",
         yCategory: "Macro Demonstration",
         description:
@@ -543,11 +543,11 @@ const projects = [
         link: "www.msci.com",
       },
       {
-        x: 8,
-        y: 38.5,
+        x: 6,
+        y: 39.5,
         icon: rise,
-        name: "NCI",
-        iconName: "NCI",
+        name: "Net-Zero Compatible Innovations",
+        iconName: "Net-Zero Compatible",
         xCategory: "Pure Climate",
         yCategory: "Market intervention: Data Infrastructure",
         description:
@@ -559,7 +559,7 @@ const projects = [
         y: 48,
         icon: crisi,
         name: "CRISI-ADAPT II",
-        iconName: "CRISI-ADAPT II",
+        iconName: "CRISI-ADAPT",
         xCategory: "Pure Climate",
         yCategory: "Market intervention: Risk Systems and Markets",
         description:
@@ -631,7 +631,7 @@ const projects = [
         y: 29,
         icon: sa,
         name: "SA Regional Nordic Hub",
-        iconName: "SA-RNH",
+        iconName: "SA Regional Nordic Hub",
         xCategory: "Climate + Environmental",
         yCategory: "Product Accelerator",
         description:
@@ -660,7 +660,7 @@ const projects = [
         y: 11.5,
         icon: phosphorus,
         name: "Phosphorus recovery and reuse",
-        iconName: "Phosphorus recovery",
+        iconName: "Phosphorus Recovery",
         xCategory: "Climate + Environmental + Economic",
         yCategory: "Physical product",
         description:
@@ -731,8 +731,8 @@ const projects = [
         x: 17,
         y: 11.5,
         icon: bsg,
-        name: "BSG",
-        iconName: "BSG",
+        name: "Brewers Spent Grain",
+        iconName: "Brewers Spent Grain",
         xCategory: "Pure Climate",
         yCategory: "Product",
         description:
@@ -778,10 +778,10 @@ const projects = [
       },
       {
         x: 53.5,
-        y: 22,
+        y: 19,
         icon: ire,
         name: "National platform for circular manufacturing(Ireland)",
-        iconName: "NPCM",
+        iconName: "Circular Manufacturing",
         xCategory: "Climate + Environmental",
         yCategory: "Product Accelerator",
         description:
