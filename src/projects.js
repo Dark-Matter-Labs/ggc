@@ -25,6 +25,7 @@ import c2land from "./icons/24_C2Land.svg";
 import blueblogs from "./icons/25_Bluebloqs.svg";
 import holi from "./icons/26_Holistic resilience of territories to extreme events.svg";
 import safeplaces from "./icons/27_SAFEPLACES.svg";
+import nitrogen from "./icons/28_Nitrogen Sensor for soil sustainability.svg";
 import carbonfarm from "./icons/29_Carbon Farming.svg";
 import arise from "./icons/30_ARISE.svg";
 import phosphorus from "./icons/31_Phosphorus recovery and reuse.svg";
@@ -787,6 +788,18 @@ const projects = [
         description:
           "The CIRCULÉIRE – National Platform for Circular Manufacturing will act as a service to Irish manufacturing companies. NPCM wants to accelerate the transition towards a zero-carbon circular economy in Ireland by embedding innovation in manufacturers and their supply chains. It is Ireland’s first major initiative in this area. The focus of this programme is to source, test, finance, and scale circular supply chains and circular business models. CIRCULÉIRE is targeting a more than 20 per cent absolute reduction in greenhouse gas emissions and waste production across the network. This initiative addresses the circular innovation gap in Ireland and seeks to act as the birthplace for the National Institute for the Circular Economy.",
         link: "www.circuleire.ie",
+      },
+      {
+        x: 82.5,
+        y: 19,
+        icon: nitrogen,
+        name: "Nitrogen Sensor for Soil Sustainability",
+        iconName: "Nitrogen Sensor",
+        xCategory: "Service",
+        yCategory: "Niche innovation",
+        description:
+          "Nitrogen is currently an essential nutrient for plants to grow and thrive. Unfortunately, nitrogen-polluted groundwater and crops have negative effects on human health and our climate. The ability to predict the optimal amount of nitrogen to add to a field or parts of a field is key to preventing leach- ing into the ecosystem beyond. There is a strong relationship between the amount, type and timing of nitrogen application and the degree of nitrogen leaching. The objective of the Nitrogen Sensor for Soil Sustainability project is to demonstrate and implement a service for estimating and predicting nitrogen content in soil, so that the timing and amount of fertilisation can be optimised for crops – mainly focusing on cereals. The customers of this sensor/service will be farm- ers and companies offering services to farmers. These could significantly improve their Farm Management Information Systems with benefits for the farmer and environment alike.",
+        link: "www.nitrogensensor.eu",
       },
     ],
   },
