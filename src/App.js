@@ -1,4 +1,4 @@
-import { ScatterPlot } from "@nivo/scatterplot";
+import { ResponsiveScatterPlot } from "@nivo/scatterplot";
 import "./App.css";
 import projects from "./projects";
 import yaxis from "./images/y-axis.svg";
@@ -80,7 +80,7 @@ const theme = {
 };
 
 const GGCPortfolioScatterPlot = ({ data }) => (
-  <ScatterPlot
+  <ResponsiveScatterPlot
     data={data}
     margin={{ top: 0, right: 300, bottom: 5, left: 0 }}
     xScale={{ type: "linear", min: 0, max: "auto" }}
