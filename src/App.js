@@ -1,10 +1,15 @@
 import { ResponsiveScatterPlot } from "@nivo/scatterplot";
+import {
+  BrowserView,
+  MobileView,
+} from "react-device-detect";
 import "./App.css";
 import projects from "./projects";
 import yaxis from "./images/y-axis.svg";
 import xaxis from "./images/x-axis.svg";
 import ckiclogo from "./images/logo_CKIC_EU.png";
 import dmlogo from "./images/DML_Logo_black.png";
+import mobile from "./images/mobile.svg"
 
 const CustomNode = ({
   x,
@@ -26,7 +31,7 @@ const CustomNode = ({
         onMouseLeave={onMouseLeave}
         onClick={onClick}
       />
-      <text text-anchor="middle" dx="2.2em" dy="5.5em" className="icon-label">
+      <text textAnchor="middle" dx="2.2em" dy="5.5em" className="icon-label">
         {node.data.iconName}
       </text>
     </g>
@@ -146,51 +151,57 @@ function App() {
       <div className="link">
         <a href="https://www.climate-kic.org/">← Back to blog</a>
       </div>
-      <div className="wrapper">
-        <div className="yaxis">
-          <img src={yaxis} alt="y axis"></img>
-        </div>
-        <div className="graph">
-          <GGCPortfolioScatterPlot data={projects} />
-          <div style={overlayStyle.overlay}>
-            <span style={overlayStyle.text}>Indicative clustering</span>
+      <BrowserView>
+        <div className="wrapper">
+          <div className="yaxis">
+            <img src={yaxis} alt="y axis"></img>
+          </div>
+          <div className="graph">
+            <GGCPortfolioScatterPlot data={projects} />
+            <div style={overlayStyle.overlay}>
+              <span style={overlayStyle.text}>Indicative clustering</span>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="xaxis">
-        <img src={xaxis} alt="x axis"></img>
-      </div>
-      <p className="link-text">
-        For more data visualisations visit👉
-        <a href="https://climate-kic.cognitive.city/">Exaptive</a>
-      </p>
-      <div className="footer">
-        <p>Supported by-</p>
-        <div className="container">
-          <a
-            href="https://www.climate-kic.org/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              className="logos"
-              src={ckiclogo}
-              alt="Climate-KIC EIT logo"
-            ></img>
-          </a>
-          <a
-            href="https://darkmatterlabs.org/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              className="logos"
-              src={dmlogo}
-              alt="Dark Matter Labs logo"
-            ></img>
-          </a>
+        <div className="xaxis">
+          <img src={xaxis} alt="x axis"></img>
         </div>
-      </div>
+      </BrowserView>
+      <MobileView>
+        <h3>Please view on desktop browser for an interactive experience</h3>
+        <img src={mobile} alt="yo" ></img>
+      </MobileView>
+      <p className="link-text">
+          For more data visualisations visit👉
+          <a href="https://climate-kic.cognitive.city/">Exaptive</a>
+        </p>
+        <div className="footer">
+          <p>Supported by-</p>
+          <div className="container">
+            <a
+              href="https://www.climate-kic.org/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="logos"
+                src={ckiclogo}
+                alt="Climate-KIC EIT logo"
+              ></img>
+            </a>
+            <a
+              href="https://darkmatterlabs.org/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="logos"
+                src={dmlogo}
+                alt="Dark Matter Labs logo"
+              ></img>
+            </a>
+          </div>
+        </div>
     </div>
   );
 }
