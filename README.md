@@ -1,7 +1,7 @@
 # EIT Climate-KIC Innovation Portfolio 2020
 
 ## About
-Created for Great Green Connector event to visulize EIT Climate-KIC Innovation Portfolio 2020.
+Created for Great Green Connector event to visualise EIT Climate-KIC Innovation Portfolio 2020.
 
 ## Key features
 - Made using [nivo](https://nivo.rocks/) library, which combines [d3](https://d3js.org/) and [React](https://reactjs.org/) libraries to create robust data visualisations
