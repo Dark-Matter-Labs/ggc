@@ -5,7 +5,7 @@ Created for Great Green Connector event to visualise EIT Climate-KIC Innovation 
 
 ## Key features
 - Made using [nivo](https://nivo.rocks/) library, which combines [d3](https://d3js.org/) and [React](https://reactjs.org/) libraries to create robust data visualisations
-- Can easy scale up and handle many more amount of project nodes
+- Can easily scale up and handle many more amount of project nodes
 - Data in JSON format
 - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 - Currently deployed using [Netlify](https://www.netlify.com/)
