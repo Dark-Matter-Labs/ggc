@@ -46,6 +46,23 @@ After doing `yarn build`, you can do `netlify deploy` and publish directory `./b
 ## How to make changes to the data
 Inside `src` folder there is `projects.json` which follows simple JSON format, easy to edit. Icons are imported as SVGs. 
 
+This is the data structure-
+```javascript
+id: "clustering category",
+    data: [
+      {
+        x: x-axis unit,
+        y: y-axis unit,
+        icon: image source,
+        name: "project name",
+        iconName: "display name",
+        xCategory: "x category",
+        yCategory: "y category",
+        description:"project description",
+        link: "project link",
+      },
+```
+
 ## How to embed inside WordPress
 It can be done by creating a custom WP plugin, simple and detailed steps are [here](https://mikhailroot.ru/react-app-embedded-into-wordpress-page/)
 
