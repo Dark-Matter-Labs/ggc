@@ -48,7 +48,8 @@ Inside `src` folder there is `projects.json` which follows simple JSON format, e
 
 This is the data structure-
 ```javascript
-id: "clustering category",
+{
+  id: "clustering category",
     data: [
       {
         x: x-axis unit,
@@ -61,6 +62,8 @@ id: "clustering category",
         description:"project description",
         link: "project link",
       },
+    ]
+  }
 ```
 
 ## How to embed inside WordPress
