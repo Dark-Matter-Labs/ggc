@@ -11,7 +11,7 @@ Created for Great Green Connector event to visualise EIT Climate-KIC Innovation 
 - Currently deployed using [Netlify](https://www.netlify.com/)
 
 ## Project structure
-    ├── build                   # Compiled files (alternatively `dist`)
+    ├── build                   # Compiled files 
     ├── public                  # Index.html file and manifest
     ├── src                     # Source files with data and React app
     ├── package.josn            # Modules in use and scripts
