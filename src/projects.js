@@ -96,7 +96,7 @@ const projects = [
         yCategory: "Micro Demonstration",
         description:
           "49 million tons of plastic were used in the EU in 2015 for packaging, building and construction, automotive or electronics. Currently, less than 40 per cent of plastics are recycled, more than 30 per cent are burned for energy recovery, and the remainder ends up in landfills. The eCircular flagship consortium envisions a circular carbon-neutral plastic system in Europe by 2050. It fosters the circularity of plastic-based material systems and the reduction of urban plastic demand, using preventative and digital solutions. It engages with public and private regional stakeholders to boost smart manufacturing and to advance local policies and industry standards. eCircular wants to become the key European reference platform for radical digital innovation driving plastic waste prevention.",
-        link: "https://www.ecircular.climate-kic.org",
+        link: "https://ecircular.climate-kic.org",
       },
     ],
   },
@@ -161,7 +161,7 @@ const projects = [
         yCategory: "Market intervention: Data Infrastructure",
         description:
           "The project Sustainable Agricultural Practices and Incentives for ENvironmental Care Ecosystems (SAPIENCE) deploys Internet of Things (IoT) technologies on farmlands to monitor agricultural practices and create a system that incentivises and rewards virtuous behaviours. In 2020, it focused on the efficient and sustainable use of irrigation water between different pilot sites dedicated to the production of wine and horticultural products. Besides monitoring and actuating purposes, which are quite common in many agritech use-cases, IoT devices will also deliver relevant data to a distributed ledger using blockchain technologies. These help to manage rewards and share profits among farmers whose virtuous behaviour contributed to achieving water savings targets.",
-        link: "https://www.sapience.fbk.eu",
+        link: "https://sapience.fbk.eu",
       },
       {
         x: 69.5,
@@ -305,7 +305,7 @@ const projects = [
         yCategory: "Market intervention: Risk system and markets",
         description:
           "Extreme meteorological phenomena like violent windstorms, heavy rain or fires are occurring in forests worldwide with increasing frequency. When an extreme event happens, stakeholders wait for public intervention to re-establish previous conditions. Major challenges for insuring against wind damage, for example, are the calculation of the correct premium, the awareness and willingness of forest owners to purchase insurance because of their perception of a low risk, and the fluctuating value of timber. In addition, extreme windstorms may be infrequent but they cause very large claims, which can overwhelm insurance and reinsurance companies. Some governments and regions have funding mechanisms permanently in place to help restore forests after storm damage. Still, there is currently neither a systematic solution across Europe nor any direct link to the insurance sector. The focus of the Holistic resilience of territories to extreme events project is to boost local resilience by developing a dedicated insurance scheme that merges the stability of industrial and productive needs with ecological and hydro-geological protection.",
-        link: "https://www.r.unitn.it",
+        link: "https://r.unitn.it",
       },
     ],
   },
@@ -358,7 +358,7 @@ const projects = [
         yCategory: "Micro Demonstration",
         description:
           "The transport sector is a major source of greenhouse gas emissions. Changing how logistics hubs work can help reduce the sector’s carbon footprint both locally and system-wide. The Decarbonisation Community for Logistics project brings together actors across the logistics supply chain in a “freight village” to foster decarbonisation. These actors include freight, transport and trade associations, logistics companies, local municipalities, and the community that uses freight village services. In a pilot project, Bologna Freight Village will test ways these stakeholders can identify potential solutions and work together. To create this ‘climate action ecosystem’, the project will connect directly with stakeholders and others through meetings, focus groups, workshops and seminars. The idea is to become a model for transforming other logistic hubs and the sector in general.",
-        link: "https://www.dec-log.com",
+        link: "https://dec-log.com",
       },
     ],
   },
@@ -399,7 +399,7 @@ const projects = [
         yCategory: "Macro Demonstration",
         description:
           "Since 1945, the rural landscapes of Finland have been ditched and developed for peat mining and forestry purposes. As a “Northern Sparsely Populated Area”, most of Eastern and Northern Finland have lost their post-ice age habitats but contain millions of hectares of potential rewilded lands to return as carbon sinks, biodiversity hotspots and water protection sites. The Snowchange Cooperative is rewilding wetlands, marsh-mires and forests to restore carbon sinks, biodiversity hotspots, Indigenous and Community Conserved (ICCA) areas and to alleviate water pollution. The Scaling Landscape Rewilding project will create a service to provide reliable greenhouse gas measurements to support options for rural economic renewal and new land to benefit local economies and communities. A state-of-the-art website will be developed to communicate and co-learn with partners how to reach broader audiences in Europe with information on rewilding.",
-        link: "https://www.snowchange.org",
+        link: "http://snowchange.org",
       },
       {
         x: 56.5,
@@ -464,7 +464,7 @@ const projects = [
         yCategory: "Macro Demonstration",
         description:
           "The Sustainable Historic Districts project takes a collaborative approach to addressing common challenges in the historic districts of six cities from five EU Mediterranean countries [Lisbon (PT), Valletta (MT), Savona (IT), Ptuj (SI), Nicosia (CY), and Sassari (IT)]. The districts share information on common issues such as narrow streets, protected historic districts, lack of green spaces, lower energy transition levels, gentrification and the lack of a sense of community. The aim is to transform them into more sustainable, climate-resilient and inclusive communities. Through this collaborative approach, the cities will create sustainable plans, designed together with their communities. This common framework will include solutions for mobility and access, housing and buildings, and circular and nature systems, bringing together communities, municipal governments, local businesses and others. A participatory process with stakeholders and residents will address the unique characteristics of each district and ensure plans remain effective over the long term. The joint learning process will enable cities to take bolder steps in delivering local transformation through potentially replicable models.",
-        link: "https://www.sustainablehistoriccitydistricts.wordpress.com",
+        link: "http://www.sustainablehistoriccitydistricts.wordpress.com",
       },
       {
         x: 145,
@@ -529,7 +529,7 @@ const projects = [
         yCategory: "Market intervention: Finance instruments",
         description:
           "Up to €1 trillion in annual investments are necessary to ensure that essential urban infrastructure is low-carbon and climate-resilient. Barriers to this green transition include high transaction costs, uncertainty about national and international policies, a lack of resources for making green and sustainable projects attractive to investors and knowledge gaps about finance options and mechanisms. The City Finance Lab is Europe’s first dedicated platform to developing innovative finance solutions for green urban projects. The project aims to help cities gain access to public and private climate finance. It is set up to help remove barriers for such investments and develop innovative financing solutions for public and private stakeholders. Since 2018, this platform has supported solutions in Poland, Portugal, France, Cyprus, Norway, Germany and the United Kingdom, including community forest trusts, green funds for SMEs, participatory budgets or municipality-issued credit cards that promote green investments.",
-        link: "https://www.cfl.southpole.com",
+        link: "https://cfl.southpole.com",
       },
       {
         x: 12.5,
@@ -601,7 +601,7 @@ const projects = [
         yCategory: "Policy: Voluntary Codes of conduct",
         description:
           "Carbon Capture and Utilisation (CCU) involves capturing CO2 and transforming it into products or services. It has been touted as a technology that promotes connections between industrial sectors, offering economic opportunities and the reduction of environmental impacts. As CCU gains momentum as a possible solution to reduce global CO2 emissions, the need for a standardised assessment of CCU implementation is growing. The Techno-Economic and Life Cycle Assessment Guidelines for CO2 Utilization (CO2nsistent) project aims to support decision-making for emerging CCU processes, based on sound and comparable techno-economic (TEA) and life cycle assessments (LCA). Freely available guidance and documents will enable stakeholders and citizens to understand TEA and LCA and their role in decision-making.",
-        link: "https://www.globalco2initiative.org/research/ co2nsistent-project/",
+        link: "https://www.globalco2initiative.org/research/co2nsistent-project/",
       },
       {
         x: 25,
@@ -690,7 +690,7 @@ const projects = [
         yCategory: "Product",
         description:
           "Nearly 40 per cent of the chemical energy of food ends up in waste or wastewaters. Active wastewater treatment plants concentrate these wastewater organics. As treatment improves, the production of wastewater sludge is increasing. At the same time, worldwide plastic production is growing every year and now exceeds 400 Mtons/y. Around 6 per cent of plastic products end up in natural environments and the ocean. Biodegradable bioplastic can be an option to address this issue. The B-PLAS DEMO project creates a new plant that can convert wastewater sludge into biodegradable bioplastic, helping address the issue of plastic pollution.",
-        link: "https://www.site.unibo.it",
+        link: "https://site.unibo.it",
       },
       {
         x: 59,
