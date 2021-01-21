@@ -21,7 +21,7 @@ const CustomNode = ({
   onClick,
 }) => {
   return (
-    <g transform={`translate(${x},${y})`}>
+    <g className="node" transform={`translate(${x},${y})`}>
       <image
         xlinkHref={node.data.icon}
         width={42}
@@ -84,6 +84,8 @@ const theme = {
   },
 };
 
+const handleMouseClick = (node) => {window.open(node.data.link)}
+
 const GGCPortfolioScatterPlot = ({ data }) => (
   <ResponsiveScatterPlot
     data={data}
@@ -99,6 +101,7 @@ const GGCPortfolioScatterPlot = ({ data }) => (
     axisRight={null}
     axisBottom={null}
     axisLeft={null}
+    onClick={handleMouseClick}
     colors={[
       "#999999",
       "#9999FF",
@@ -128,6 +131,7 @@ const GGCPortfolioScatterPlot = ({ data }) => (
         style={{
           color: node.style.color,
           fontFamily: "SpaceMono-Regular, serif",
+          fontSize: 14,
           background: "#000000D9",
           padding: "12px 16px",
           textAlign: "start",
@@ -138,6 +142,8 @@ const GGCPortfolioScatterPlot = ({ data }) => (
         <strong>{node.data.name}</strong>
         <br />
         {node.data.description}
+        <br /><br />
+        {node.data.link}
       </div>
     )}
   />
@@ -147,7 +153,7 @@ function App() {
   return (
     <div className="App">
       <h1>EIT Climate-KIC Innovation Portfolio 2020</h1>
-      <h3>(created for Great Green Connector event)</h3>
+      <h3>(Created for the Great Green Connector event series)</h3>
       <div className="link">
         <a href="https://www.climate-kic.org/">← Back to blog</a>
       </div>
@@ -174,7 +180,10 @@ function App() {
       <p className="link-text">
           For more data visualisations visit👉
           <a href="https://climate-kic.cognitive.city/">Exaptive</a>
-        </p>
+      </p>
+      <p>
+      For an overview brochure of the 2020 innovation portfolio visit👉<a href="https://www.climate-kic.org/in-detail/2020-innovation-portfolio/">climate-kic.org</a>
+      </p>
         <div className="footer">
           <p>Supported by-</p>
           <div className="container">
